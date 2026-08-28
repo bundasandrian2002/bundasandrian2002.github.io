@@ -266,28 +266,9 @@ body.dark-theme {
   margin: 0 auto;
 }
 
-.badge {
-  position: relative;
-  display: inline-block;
-  width: 15px;
+.profile__name img {
   height: 15px;
-  vertical-align: middle;
-}
-
-.badge__star,
-.badge__check {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.badge__star {
   animation: rotate-badge 2s linear infinite;
-}
-
-.badge__check {
-  /* stays fixed while the star spins underneath it */
 }
 
 @keyframes rotate-badge {
