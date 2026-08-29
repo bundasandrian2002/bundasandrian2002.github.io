@@ -66,7 +66,7 @@ const sr = ScrollReveal({
     reset: false
 })
 
-sr.reveal(`.change-theme`, {origin: 'top', distance: '60px', delay: 200, opacity: 0, duration: 900, easing: 'cubic-bezier(0.34, 1.56, 0.64, 1)'})
+sr.reveal(`.change-theme`, {origin: 'top', distance: '60px', delay: 500, opacity: 0, duration: 1500, easing: 'cubic-bezier(0.34, 1.56, 0.64, 1)'})
 sr.reveal(`.profile__border`, {origin: 'top', distance: '80px', duration: 900, easing: 'cubic-bezier(0.34, 1.56, 0.64, 1)', opacity: 0})
 sr.reveal(`.profile__perfil-container`, {origin: 'top', distance: '80px', duration: 900, delay: 150, easing: 'cubic-bezier(0.34, 1.56, 0.64, 1)', opacity: 0})
 sr.reveal(`.profile__name`, {origin: 'top', distance: '60px', duration: 900, delay: 350, easing: 'cubic-bezier(0.34, 1.56, 0.64, 1)', opacity: 0})
