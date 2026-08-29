@@ -196,30 +196,7 @@ body.dark-theme {
   display: grid;
   place-items: center;
   margin-bottom: .75rem;
-  animation: rainbow 5s linear infinite, profile-load-bounce 1s ease;
-}
-
-@keyframes profile-load-bounce {
-  0% {
-    transform: translateY(-80px);
-    opacity: 0;
-  }
-  50% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  65% {
-    transform: translateY(-20px);
-  }
-  80% {
-    transform: translateY(0);
-  }
-  90% {
-    transform: translateY(-8px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+  animation: rainbow 5s linear infinite;
 }
 
 @keyframes rainbow {
