@@ -196,15 +196,29 @@ body.dark-theme {
   display: grid;
   place-items: center;
   margin-bottom: .75rem;
-  animation: rainbow 5s linear infinite, rainbow-sliding 4s ease-in-out infinite;
+  animation: rainbow 5s linear infinite, profile-load-bounce 1s ease;
 }
 
-@keyframes rainbow-sliding {
-  0%, 100% {
-    transform: translateY(0);
+@keyframes profile-load-bounce {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
   }
   50% {
-    transform: translateY(-15px);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  65% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
