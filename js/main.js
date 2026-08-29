@@ -67,8 +67,8 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.change-theme`, {origin: 'right', distance: '20px', delay: 1000, opacity: 0, duration: 2000, scale: 0.8})
-sr.reveal(`.profile__border`, {origin: 'center', scale: 0.5, duration: 1500, opacity: 0})
-sr.reveal(`.profile__perfil-container`, {origin: 'center', scale: 0.8, duration: 1500, delay: 200, opacity: 0})
+sr.reveal(`.profile__border`, {origin: 'top', distance: '80px', duration: 900, easing: 'cubic-bezier(0.34, 1.56, 0.64, 1)', opacity: 0})
+sr.reveal(`.profile__perfil-container`, {origin: 'top', distance: '80px', duration: 900, delay: 150, easing: 'cubic-bezier(0.34, 1.56, 0.64, 1)', opacity: 0})
 sr.reveal(`.profile__name`, {delay: 500})
 sr.reveal(`.profile__profession`, {delay: 600})
 sr.reveal(`.profile__social`, {delay: 700})
